@@ -82,5 +82,5 @@ Push your changes to the repository (git push origin feature/new-feature).
 Create a new Pull Request.
 ```
 ## 5. Useful Information:
-- [Test Plan]([link_to_test_plan](https://github.com/Soykervinn/automation-exercise-apply/blob/main/test-plan.md))
-- [Test Strategy]([link_to_test_strategy](https://github.com/Soykervinn/automation-exercise-apply/blob/main/test-strategy.md))
+- [Test Plan](https://github.com/Soykervinn/automation-exercise-apply/blob/main/test-plan.md)
+- [Test Strategy](https://github.com/Soykervinn/automation-exercise-apply/blob/main/test-strategy.md)
