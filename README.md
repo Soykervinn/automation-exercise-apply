@@ -3,7 +3,7 @@
 #### Kervinn Aguilera
 #### Test Automation Engineer
 ###### [Linkedin](https://www.linkedin.com/in/kervinn/)
-###### [Github](https://github.com/Soykervinn)
+###### [Bitbucket](https://bitbucket.org/kervinnaguilera/workspace/overview/)
 
 This repository contains automated tests using Cypress integrated with Cucumber to implement tests of test scenarios written in Gherkin describing the expected behavior of Automation Exercise, an e-commerce platform.
 
