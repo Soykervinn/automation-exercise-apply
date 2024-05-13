@@ -1,6 +1,6 @@
-Feature: Demo Blaze E2E Testing. 
+Feature: Exercise Automation Apply Digital. 
 
-@focus 
+
 Scenario: e2e E-commerce User Flow.
     Given the user is on the e-commerce website.
     When the user scrolls down about halfway down the page.
