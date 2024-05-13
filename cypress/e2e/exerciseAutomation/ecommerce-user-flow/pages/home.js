@@ -11,8 +11,7 @@ class homeScreen {
     }
 
     get VisitPage(){
-        return cy.visit(url)
-        .wait(2000)
+        return cy.visit(url);
     }
     get scrollDown(){
         return cy
