@@ -18,29 +18,6 @@ The aim of this project is to automate user flows for a successful purchase on t
 - Contact Us
 - Logout
 ```
-## User Flow Description.
-```bash
-1. Enter the website and scroll down about halfway down the page.
-2. Choose a product and click on “View product” under the picture of the product.
-3. In the Quantity box enter 30
-4. Click “Add to cart”
-5. Click on “Proceed to Checkout”
-6. Fill in an email address and click on “Register / Login”
-7. Enter name and email under “New User Signup”
-8. Fill in all information and click on “Create Account”
-9. Click on “Continue” under “ACCOUNT CREATED!” title
-10. Click on the Cart in the header
-11. Click on “Proceed to checkout”
-12. Add a comment and click on “Place Order”
-13. Fill in fake Credit Card information and click on “Pay and Confirm Order”
-14. Click on “Continue” button
-15. Click on “Logout” on top header
-16. On the “Login to your account” box and enter with previously created user
-17. Click on “Contact us” on the header
-18. Fill required data and Click on “Submit”
-19. Press “OK” in the pop up
-20. Finally, click on the “Logout” button on the header.
-```
 ## Stack.
 ```bash
 - Node.js
