@@ -3,6 +3,9 @@ import '../../../../support/commands'
 
 class userRegistration {
     constructor(){
+        this.nameBox = '[data-qa="signup-name"]';
+        this.signupEmailBox = '[data-qa="signup-email"]';
+        this.signupButton = '[data-qa="signup-button"]';
         this.gender = '#id_gender1';
         this.passwordBox = '[data-qa="password"]';
         this.daysBox = '[data-qa="days"]';
@@ -24,6 +27,27 @@ class userRegistration {
         this.continueButton = '[data-qa="continue-button"]';
 
     }
+    get visitSignupView(){
+        return cy.visit(url);
+    }
+    
+    get nameInput(){
+        cy.fixture('userData.json').then((userData) => {
+        return cy
+        .get(this.nameBox).type(userData.userInfo.name);
+    });
+    }
+    get signupEmailInput(){
+        cy.randomEmailGenerator('cypress/e2e/exerciseAutomation/ecommerce-user-flow/utils/userCredentials.json').then((randomEmail) => {
+            cy.get(this.signupEmailBox).type(randomEmail);
+        });
+    }
+
+    get signUp(){
+        return cy
+        .get(this.signupButton).click();
+    }
+
     get gederSelected(){
         return cy
         .get(this.gender).click();

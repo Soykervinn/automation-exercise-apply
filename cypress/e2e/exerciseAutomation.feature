@@ -1,5 +1,20 @@
 Feature: Exercise Automation Apply Digital. 
 
+Scenario: User signs up for a new account.
+    Given the user is on the signup page.
+    When the user enters their Name and Email.
+    And completes the form with personal information.
+    And submits the account creation form.
+    Then the user's account should be created successfully.
+
+Scenario: User logs in and logs out.
+    Given the user is on the login page.
+    When the user enters their credentials.
+    And clicks on the login button.
+    Then the user should be logged in successfully.
+    And the user should see their profile page.
+    When the user clicks on the logout button.
+    Then the user should be logged out successfully.
 
 Scenario: e2e E-commerce User Flow.
     Given the user is on the e-commerce website.

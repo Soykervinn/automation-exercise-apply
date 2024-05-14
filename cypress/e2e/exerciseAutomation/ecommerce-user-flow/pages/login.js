@@ -11,6 +11,10 @@ class loginView {
         this.passwordBox = '[data-qa="login-password"]';
         this.loginButton = '[data-qa="login-button"]';
     }
+    get visitLoginView(){
+        return cy.visit(url);
+    }
+
     get headerComponent(){
         return cy
         .get(this.headerPage).should('exist');
@@ -52,6 +56,11 @@ class loginView {
     get login(){
         return cy
         .get(this.loginButton).click();
+    }
+
+    get urlValidation(){
+        return cy
+        .url().should('eq', url);
     }
 
 }
